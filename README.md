@@ -53,7 +53,9 @@ And then execute:
       <%= @stats %>
     </div>
     ```
-
+5. Include this JS file in your app/assets/javascripts/applicaiton.js file 
+`//= require bootstrap-input-spinner/src/bootstrap-input-spinner`
+ 
 ## Advanced usage
 
 Advanced usage includes information on different options, such as:
