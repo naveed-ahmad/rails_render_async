@@ -21,11 +21,18 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/rails_render_async.rb"
+    "app/assets/javascripts/rails_render_async/render-async.js",
+    "app/views/rails_render_async/_render_async.html.erb",
+    "lib/rails_render_async.rb",
+    "lib/rails_render_async/configuration.rb",
+    "lib/rails_render_async/engine.rb",
+    "lib/rails_render_async/view_helper.rb",
+    "rails_render_async.gemspec"
   ]
   s.homepage = "http://github.com/naveed-ahmad/rails_render_async".freeze
   s.licenses = ["MIT".freeze]
